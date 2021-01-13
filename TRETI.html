@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TRETI</title>
+	<form alignn="left" action="" method="post" name="first">
+	ФИО:<br>
+	<input type="text" name="Name"><br>
+	<input type="radio" name="pol">Мужской<input type="radio" name="pol">Женский
+<br>
+Адрес:<br>
+<input type="text" name="adress"><br>
+Телефон<br>
+<input type="=text" name="phone"><br>
+Email<br>
+<input type="email" id="input"><br>
+<script>
+	input.onblur=function()
+	if (!this.value.includes('@')) {
+		this.classlist.add("error");
+		input.focus();
+	} else{
+		this.classlist.remove("error");
+	}
+</script>
+Возраст<br>
+<select name = "age">
+	<option>0-10
+		<option>11-18
+				<option>19-45
+						<option>46-70
+								<option>больше 70
+<select><br>
+	Комментарий<br>
+	<textarea name="" rews=5 cols=40
+	onChange="sCange()"> </textarea><br>
+	<input type="reset" value="Очистить">
+	<input type="button" name="button2"
+	value="Готово" OnClick="text()">
+
+</head>
+<body>
+
+</body>
+</html>
